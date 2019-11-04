@@ -1,0 +1,298 @@
+header{
+    background-color: #f6f9f9;
+    padding: 31px 0px;
+}
+header .logo{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+header .logo img{}
+header nav{
+    max-width: 80%;
+    flex-basis: 80%;
+}
+header nav ul {
+    justify-content: flex-end;
+}
+header nav ul li a{
+    color: #2d3950;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: block;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+header nav ul li a:hover{}
+
+  /******** banner-section **********/
+.banner-section{
+    background: url(../images/Strict.jpg);
+    /* min-height: 100vh; */
+    position: relative;
+}
+.banner-section .row{
+    justify-content: center;
+    er;
+    align-items: center; */
+;
+    min-height: 96vh;
+}
+.banner-content{
+    max-width: 50%;
+    flex-basis: 50%;
+    text-align: center;
+}
+.banner-content h1{
+    font-size: 120px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 46px;
+}
+.banner-content span{
+    width: 100%;
+    background-color: #15a4faa1;
+    height: 2px;
+    display: block;
+}
+.banner-content p{
+    font-size: 15px;
+    color: white;
+    padding-top: 28px;
+}
+.banner-content button{
+    background: none;
+    padding: 17px 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #15a4faa1;
+    margin: 50px;
+}
+.banner-content button:hover{}
+.arrow{
+  position: absolute;
+  font-size: 40px;
+  bottom: 97px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+.arrow i{
+  /* font-size:25px; */
+  /* color: white; */
+  /* bottom: 0; */
+  /* top: 0; */
+  /* left: 50%; */
+}
+.arrow:hover{}
+/* ************banner-setion-end ********/
+
+/**************** about-section START *********/
+.about-section{
+    background-color: #f6f9f9;
+}
+.about-section h2{/* text-align: center; *//* color: black; *//* font-weight: 400; */}
+.about-section p{
+    text-align: center;
+}
+/**************** about-section  END  *********/
+
+/********** feature-secton START**********/
+.feauter-section{}
+.feauter-section .row{}
+.feature{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    text-align: center;
+    padding: 65px 15px;
+}
+.feature-icon{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+50 */
+    background: #48baff; /* Old browsers */
+    background: -moz-linear-gradient(left,  #48baff 0%, #48baff 50%, #5fc3ff 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #48baff 0%,#48baff 50%,#5fc3ff 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#5fc3ff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+
+    line-height: 100px;
+    border-radius: 2px;
+}
+.feature-icon i{
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 10px 10px #4687a7;
+}
+.feature h3{
+    color: black;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.feature p{}
+/********** feature-secton END **********/
+
+/********* showcase-section START**********/
+.showcase-section{
+    background-color: #f6f9f9;
+}
+.showcase-section .row{padding-bottom: 80px;}
+.showcase1{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    padding: 15px;
+}
+.shocasepm{
+  position: relative;
+}
+.shocasepm img{}
+.shocasepm .overlay{
+  position: absolute;
+  width: 100%;
+  background: #1a99eac4;
+  height: 0;
+  bottom:0;
+  opacity: 0;
+  transition:all 0.6s;
+}
+.shocasepm:hover .overlay{
+  opacity: 1;
+    height: 100%;
+}
+.shocasepm .plus{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%,-50%);
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 2px;
+    opacity: 0;
+    transition:all 0.6s;
+}
+.shocasepm:hover .plus{
+  opacity: 1;
+  top:50%;
+}
+.shocasepm .link{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-55%, -50%);
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 35px;
+    opacity: 0;
+    transition:all 0.6s;
+}
+.shocasepm:hover .link{
+  opacity: 1;
+  top: 50%;
+}
+
+/********* showcase-section END**********/
+
+/************** contact-section Start ***********/
+.about-section2{
+  background-image: url(../images/contact.png);
+  background-color: #294880d9;
+  background-blend-mode: multiply;
+}
+.overlay2{}
+.heading{
+    text-align: center;
+    /* margin: 49px 0px 0px 0px; */
+    padding: 80px 0px 100px;
+}
+.heading h2{
+    color: black;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.heading p{}
+.about-section2 .row{
+justify-content: center;
+}
+.about-section2 h2{
+  color:white;
+  font-size: 34px;
+}
+.contact-form{
+    max-width: 70%;
+    flex-basis: 70%;
+}
+.contact-form form{
+    padding-bottom: 80px;
+}
+.contact-form form input,.contact-form textarea{
+    font-size: 15px;
+    background: none;
+    width: 100%;
+    padding: 15px;
+    margin: 0px 1px 15px 0px;
+    border: 1px solid #e6dede87;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 2px;
+}
+.contact-form form input[type="checkbox"]{
+
+width: auto;
+
+margin: 12px 0px 0px 0px;
+}
+.contact-form ul li{
+    width: 50%;
+    flex-basis: 50%;
+}
+.contact-form  form label{
+    font-size: 15px;
+    float: none;
+    color: white;
+}
+.contact-form form input[type="submit"]{
+    width: auto;
+    float: right;
+    padding: 12px 45px;
+}
+
+/************** contact-section END ***********/
+
+/************** FOOTER-section START***********/
+.footer-secton{
+    padding: 41px 0px;
+}
+.copyright{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.copyright p{
+    color: #999;
+    font-size: 15px;
+}
+.copyright p a{
+    color: #999;
+}
+
+.social{max-width: 50%;flex-basis: 50%;}
+.social .row{}
+.social ul{justify-content: flex-end;}
+.social ul li{display: block;height: 30px;/* justify-content: flex-end; */width: 30px;background: #15a4fa;padding: 0px 0px 0px 0px;margin-left: 10px;border-radius: 5px;}
+.social ul li a{
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+}
+.social ul li a:hover{}
+/************** FOOTER-section END ***********/
